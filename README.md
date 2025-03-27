@@ -6,7 +6,7 @@ Crypto_Ringmasters
 ## Team Members:
 - Shafat Shahnewaz
 - Rumali Siddiqua
-- 
+  
 ## Project Title:
 (Enter your project title - be creative)
 
