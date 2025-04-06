@@ -8,10 +8,14 @@ Crypto_Ringmasters
 - Rumali Siddiqua
   
 ## Project Title:
-(Enter your project title - be creative)
+ Implementation and Analysis of Ring Oscillator-based PUF on Xilinx PYNQ-Z1 and Intel Altera FPGAs
 
 ## Project Description:
-(Provide a short description of the problem you're addressing)
+This project aims to design and implement a Physically Unclonable Function (PUF) using
+ Ring Oscillator (RO) architectures on two FPGA platforms: the Xilinx PYNQ-Z1 and Intel
+ Altera FPGA boards. PUFs are lightweight hardware security primitives that exploit process
+ variations in silicon to generate unique and unpredictable device identifiers. These can be used for
+ secure applications such as key generation, device authentication, and tamper detection.
 
 ## Key Objectives:
 - Objective 1
