@@ -1,0 +1,11 @@
+## Clock: pin W5 (100MHz)
+set_property PACKAGE_PIN W5 [get_ports clk]
+set_property IOSTANDARD LVCMOS33 [get_ports clk]
+
+## Reset: pin P16 (Button BTN0)
+set_property PACKAGE_PIN P16 [get_ports rst]
+set_property IOSTANDARD LVCMOS33 [get_ports rst]
+
+## Output: pin V17 (LED LD0)
+set_property PACKAGE_PIN V17 [get_ports puf_bit_out]
+set_property IOSTANDARD LVCMOS33 [get_ports puf_bit_out]
