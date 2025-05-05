@@ -11,14 +11,10 @@ Crypto_Ringmasters
  Implementation and Analysis of Ring Oscillator-based PUF on Xilinx PYNQ-Z1 and Intel Altera FPGAs
 
 ## Project Description:
-This project aims to design and implement a Physically Unclonable Function (PUF) using
- Ring Oscillator (RO) architectures on two FPGA platforms: the Xilinx PYNQ-Z1 and Intel
- Altera FPGA boards. PUFs are lightweight hardware security primitives that exploit process
- variations in silicon to generate unique and unpredictable device identifiers. These can be used for
- secure applications such as key generation, device authentication, and tamper detection.
+This project focuses on the design and implementation of a Physically Unclonable Function (PUF) based on Ring Oscillator (RO) architectures, deployed on two FPGA platforms within the Xilinx PYNQ-Z1 board. PUFs are lightweight hardware security primitives that leverage inherent manufacturing variations in silicon to produce unique and unpredictable device identifiers. These identifiers can be used in secure applications such as cryptographic key generation, device authentication, and tamper detection.
 
 ## Key Objectives:
-- Design and implement a RO-PUF architecture using Verilog on both PYNQ-Z1 and Altera FPGA.
+- Design and implement a RO-PUF architecture using Verilog on 3 PYNQ-Z1 boards.
 
 - Analyze and compare entropy, stability, and uniqueness across different platforms.
 
@@ -29,13 +25,9 @@ This project aims to design and implement a Physically Unclonable Function (PUF)
 
 - Xilinx PYNQ-Z1
 
-- Intel Altera FPGA
-
 ## Software Tools:
 
 - Vivado (for Xilinx FPGA design)
-
-- Quartus (for Intel FPGA design)
 
 - Jupyter Notebook (PYNQ control via Python)
 
@@ -48,8 +40,6 @@ This project aims to design and implement a Physically Unclonable Function (PUF)
 - Verilog (PUF logic)
 
 - Python (data collection and control on PYNQ)
-
-
 
 ## Expected Outcomes:
 - Functional RO-PUF design on both platforms
@@ -80,3 +70,4 @@ This project aims to design and implement a Physically Unclonable Function (PUF)
 | Data analysis and documentation   | Week 4        |
 | Final report and presentation     | Week 4        |
 
+## Workflow of the Project:
