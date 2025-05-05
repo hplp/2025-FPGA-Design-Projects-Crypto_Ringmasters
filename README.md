@@ -54,8 +54,7 @@ This project focuses on the design and implementation of a Physically Unclonable
 | Literature Survey  | Review RO-PUF implementations and related security techniques             | Shafat & Rumali   |
 | Verilog Design     | Implement RO, controller, comparator, and shift register modules          | Shafat & Rumali   |
 | PYNQ Integration   | Develop AXI-Lite interface and Jupyter Notebook interface                 |                   |
-| Intel FPGA Port    | Adapt and test the design for Intel FPGA platform                         |                   |
-| Testing & Analysis | Measure frequency, entropy, and stability across devices                  |                   |
+| Testing & Analysis | Measure frequency, and stability across devices                  |                   |
 | Documentation      | Prepare final report and presentation                                     | Both              |
 
 
