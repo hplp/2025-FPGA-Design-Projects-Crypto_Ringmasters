@@ -163,3 +163,18 @@ Fig. 6. IO Planning
 Fig. 7. FPGA Implementation
 
 ## Results
+
+<p align="middle">
+<img src="Post-Synthesis.PNG">
+</p>
+Fig. 8. Post-Synthesis 
+
+<p align="middle">
+<img src="Power.PNG">
+</p>
+Fig. 9. Power Analysis
+
+<p align="middle">
+<img src="Routing.PNG">
+</p>
+Fig. 10. Routing Analysis
