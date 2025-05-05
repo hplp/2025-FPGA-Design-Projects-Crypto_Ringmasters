@@ -99,10 +99,13 @@ Step 2: FPGA Implementation on PYNQ-Z1
 
 - Added Verilog source files and optionally the testbench for simulation.
 
-p align="middle">
-<img src="Source View.PNG">
+<p align="middle">
+<img src="Source view.PNG">
 </p>
 Fig. 2. Vivado RTL Source View Pane
+
+<br>
+<br>
 
 2.2 Constraints File (XDC)
 
@@ -114,25 +117,31 @@ Fig. 2. Vivado RTL Source View Pane
 
 - Ensured timing closure and no critical warnings.
 
-p align="middle">
+<p align="middle">
 <img src="Schematic Final.PNG">
 </p>
 Fig. 3. Schematic View
-
-p align="middle">
+<br>
+<br>
+<p align="middle">
 <img src="Floorplanning.PNG">
 </p>
 Fig. 4. Floorplanning View
-
-p align="middle">
+<br>
+<br>
+<p align="middle">
 <img src="Hierarchy.PNG">
 </p>
 Fig. 5. Hierarchy Level of RTL Module
-
-p align="middle">
+<br>
+<br>
+<p align="middle">
 <img src="IO Planning.PNG">
 </p>
 Fig. 6. IO Planning
+
+<br>
+<br>
 
 2.4 Bitstream Generation
 
