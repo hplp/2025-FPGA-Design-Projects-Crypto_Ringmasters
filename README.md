@@ -29,8 +29,6 @@ This project focuses on the design and implementation of a Physically Unclonable
 
 - Vivado (for Xilinx FPGA design)
 
-- Jupyter Notebook (PYNQ control via Python)
-
 - ModelSim (simulation)
 
 - Python/NumPy for data analysis
