@@ -49,13 +49,13 @@ This project focuses on the design and implementation of a Physically Unclonable
 
 ## Tasks:
 
-| Task               | Description                                                              | Assigned To       |
-|--------------------|---------------------------------------------------------------------------|-------------------|
-| Literature Survey  | Review RO-PUF implementations and related security techniques             | Shafat & Rumali   |
-| Verilog Design     | Implement RO, controller, comparator, and shift register modules          | Shafat & Rumali   |
-| PYNQ Integration   | Develop AXI-Lite interface and Jupyter Notebook interface                 |                   |
-| Testing & Analysis | Measure frequency, and stability across devices                  |                   |
-| Documentation      | Prepare final report and presentation                                     | Both              |
+| Task               | Description                                                              
+|--------------------|-------------------------------------------------------------------
+| Literature Survey  | Review RO-PUF implementations and related security techniques             
+| Verilog Design     | Implement RO, controller, comparator, and shift register modules          
+| PYNQ Integration   | Develop AXI-Lite interface and Jupyter Notebook interface                 
+| Testing & Analysis | Measure frequency, and stability across devices                  
+| Documentation      | Prepare final report and presentation                                  
 
 
 ## Timeline:
