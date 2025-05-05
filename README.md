@@ -52,7 +52,7 @@ This project focuses on the design and implementation of a Physically Unclonable
 | Literature Survey  | Review RO-PUF implementations and related security techniques             
 | Verilog Design     | Implement RO, controller, comparator, and shift register modules          
 | PYNQ Integration   | Develop AXI-Lite interface and Jupyter Notebook interface                 
-| Testing & Analysis | Measure frequency, and stability across devices                  
+| Testing & Analysis | Measure frequency and stability across devices                  
 | Documentation      | Prepare final report and presentation                                  
 
 
@@ -68,3 +68,54 @@ This project focuses on the design and implementation of a Physically Unclonable
 | Final report and presentation     | Week 4        |
 
 ## Workflow of the Project:
+
+This project involves the design, simulation, and FPGA deployment of a 1-bit RO-PUF (Ring Oscillator-based Physical Unclonable Function). The objective is to demonstrate a lightweight hardware security primitive on reconfigurable platforms.
+
+Step 1: Behavioral Simulation
+
+- Simulated the Verilog design using Vivado Simulator and GTKwave for functional verification.
+
+- Verified the toggling behavior of ROs, counting accuracy, and correct comparator output.
+
+- Observed output bit changes based on small frequency differences between ROs.
+
+<p align="middle">
+<img src="RTL Simulation_1.jpg">
+</p>
+
+<p align="middle">
+<img src="RTL Simulation_2.jpg">
+</p>
+Fig. 1. Behavioral RTL Simulation 
+
+Step 2: FPGA Implementation on PYNQ-Z1
+
+2.1 Vivado Project Setup
+
+- Created an RTL project in Vivado using the target part: xc7z020clg400-1
+
+- Added Verilog source files and optionally the testbench for simulation.
+
+2.2 Constraints File (XDC)
+
+- Used Digilent's Master XDC for PYNQ-Z1.
+
+2.3 Synthesis & Implementation
+
+- Ran synthesis and implementation processes in Vivado.
+
+- Ensured timing closure and no critical warnings.
+
+2.4 Bitstream Generation
+
+- Generated .bit file after successful implementation.
+
+2.5 Board Programming & Demo
+
+- Connected the PYNQ-Z1 board via USB-JTAG.
+
+- Programmed the FPGA using Vivado Hardware Manager.
+
+- Observed the PUF bit (0/1) via onboard LEDs.
+
+- Tested on three different PYNQ-Z1 boards for uniqueness and reproducibility.
