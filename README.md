@@ -8,7 +8,7 @@ Crypto_Ringmasters
 - Rumali Siddiqua
   
 ## Project Title:
- Implementation and Analysis of Ring Oscillator-based PUF on Xilinx PYNQ-Z1 and Intel Altera FPGAs
+ Implementation and Analysis of Ring Oscillator-based PUF on Xilinx PYNQ-Z1.
 
 ## Project Description:
 This project focuses on the design and implementation of a Physically Unclonable Function (PUF) based on Ring Oscillator (RO) architectures, deployed on two FPGA platforms within the Xilinx PYNQ-Z1 board. PUFs are lightweight hardware security primitives that leverage inherent manufacturing variations in silicon to produce unique and unpredictable device identifiers. These identifiers can be used in secure applications such as cryptographic key generation, device authentication, and tamper detection.
