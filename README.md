@@ -88,6 +88,9 @@ Step 1: Behavioral Simulation
 </p>
 Fig. 1. Behavioral RTL Simulation 
 
+<br>
+<br>
+
 Step 2: FPGA Implementation on PYNQ-Z1
 
 2.1 Vivado Project Setup
