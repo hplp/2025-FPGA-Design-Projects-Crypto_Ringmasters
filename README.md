@@ -156,3 +156,10 @@ Fig. 6. IO Planning
 - Observed the PUF bit (0/1) via onboard LEDs.
 
 - Tested on three different PYNQ-Z1 boards for uniqueness and reproducibility.
+
+<p align="middle">
+<img src="RO PUF FPGA.jpg">
+</p>
+Fig. 7. FPGA Implementation
+
+## Results
